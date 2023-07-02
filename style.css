@@ -1,0 +1,256 @@
+:root {
+    --green: #28a745;
+    --teal: #00594e;
+    --success: #28a745;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+}
+
+
+.header {
+    background: transparent;
+    padding: 0px;
+    height: 500px;
+    position: relative;
+}
+
+.header .bg {
+    background: url("1.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.header .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 60px;
+}
+
+.logo {
+    float: left;
+    max-width: 90px;
+}
+
+.header-menu {
+    float: right;
+    list-style-type: none;
+    height: 90px;
+}
+
+.header-menu li {
+    float: left;
+    line-height: 90px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+}
+
+
+
+.categories {
+    max-width: 1400px;
+    margin: 40px 100px 40px;
+    padding-bottom: 40px;
+    display: block;
+    clear: both;
+}
+
+.categories div {
+    width: 130px;
+    font-weight: 500;
+    text-align: center;
+    float: left;
+}
+
+.categories div img {
+    width: 70px;
+}
+
+.res_menu {
+    max-width: 1400px;
+    display: block;
+    padding-top: 10px;
+    margin: auto 250px;
+    clear: both;
+    margin-bottom: 400px;
+}
+
+.res_item {
+    margin: 20px 0;
+    position: relative;
+    clear: both;
+    display: block;
+    padding-top: 20px;
+}
+
+
+.half.left {
+    float: left;
+    width: 320px;
+}
+
+.half.left img {
+    max-width: 100%;
+}
+
+.half.right {
+    float: left;
+    padding: 0 20px;
+    width: 500px;
+}
+
+.half.right .heading {
+    text-transform: uppercase;
+}
+
+.half.right .heading h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.half.right .heading span {
+    text-transform: lowercase !important;
+    font-weight: normal;
+    color: var(--teal) !important;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.half.right .ing {
+    padding: 10px 0;
+}
+
+.half.right .ing div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+    color: var(--teal);
+}
+
+.half.right .ing div img {
+    width: 30px;
+}
+
+.half.right .text p {
+    line-height: 24px;
+}
+
+.half.right .text p.note {
+    color: var(--teal);
+}
+
+.nutrition {
+    margin: 10px 0;
+}
+
+.nutrition_item {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+    color: var(--teal);
+}
+
+.nutrition_item .circle {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: solid 1px var(--teal);
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 10px;
+}
+
+
+
+.cta {
+    margin-top: 10px;
+}
+
+.cta button {
+    padding: 10px 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    background: var(--teal);
+    border: none;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+
+
+.footer {
+    background: var(--teal);
+    padding: 40px;
+    height: 170px;
+    margin-top: auto;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer_wrapper {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer_wrapper>div {
+    float: left;
+    width: 280px;
+}
+
+.footer_wrapper .f_logo img {
+    max-width: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer_contact ul li::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer_contact ul li p {
+    /* display: inline-block; */
+    float: left;
+    line-height: 30px;
+}
+
+.footer_contact ul li img {
+    max-width: 30px;
+    float: left;
+}
